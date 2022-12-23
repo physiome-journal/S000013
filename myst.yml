@@ -1,0 +1,39 @@
+version: 1
+project:
+  title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
+  authors:
+    - name: Weiwei Ai
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+      corresponding: true
+      email: weiwei.ai@auckland.ac.nz
+    - name: Limor Freifeld
+      affiliations:
+        - >-
+          Department of Biomedical Engineering, Technion – Israel Institute of
+          Technology, Haifa, Israel
+    - name: David P Nickerson
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+  keywords:
+    - cellular calcium control mechanisms
+    - myometrial contractions
+    - computational model
+    - CellML
+  open_access: true
+  license: CC-BY-4.0
+site:
+  projects:
+    - slug: S000013
+      path: .
+  nav: []
+  actions:
+    - title: paper
+      url: Ai2021PhysiomeS000013.pdf
+      static: true
+    - title: omex
+      url: Ai2021PhysiomeS000013.omex
+      static: true
+    - title: primary
+      url: https://doi.org/unknown
+  title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
