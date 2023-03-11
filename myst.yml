@@ -3,16 +3,19 @@ project:
   title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
   authors:
     - name: Weiwei Ai
+      orcid: 0000-0001-5602-5707
       affiliations:
         - Auckland Bioengineering Institute, University of Auckland, New Zealand
       corresponding: true
       email: weiwei.ai@auckland.ac.nz
     - name: Limor Freifeld
+      orcid: 0000-0002-0739-6947
       affiliations:
         - >-
           Department of Biomedical Engineering, Technion – Israel Institute of
           Technology, Haifa, Israel
     - name: David P Nickerson
+      orcid: 0000-0003-4667-9779
       affiliations:
         - Auckland Bioengineering Institute, University of Auckland, New Zealand
   keywords:
@@ -25,7 +28,11 @@ project:
   numbering:
     heading_2: true
     heading_3: true
+  subject: Original
+  date: 2021/10/27
+  doi: 10.36903/physiome.16828756
 site:
+  title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
   projects:
     - slug: S000013
       path: .
@@ -38,5 +45,4 @@ site:
       url: Ai2021PhysiomeS000013.omex
       static: true
     - title: primary
-      url: https://doi.org/unknown
-  title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
+      url: https://doi.org/10.1152/ajpcell.00478.2006
