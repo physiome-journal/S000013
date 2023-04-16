@@ -63,7 +63,7 @@ Following best practices, our CellML implementation separates the mathematics fr
 \item the \emph{$Ca_{i}^{2+}$ experiment 2} is used to simulate the reaction during stretch-induced phasic contraction of human myometrium.
 \end{enumerate}
 
-Simulation settings and detailed solver information are encoded in SED-ML documents for execution of the simulation experiments \citep{waltemath_reproducible_2011}. The Python scripts used with OpenCOR Snapshot 2021-05-19 \citep{garny_opencor_2015} to perform simulations and produce the figures in the primary paper are also included in the folder <./Simulation->src>. The name of the simulation and plot scripts indicates the figure number in the primary paper. For example, Fig2\_sim.py is used to generate the simulation data and Fig2\_plot.py reproduces the graph shown in Figure 2 from \citet{bursztyn2007mathematical}.
+Simulation settings and detailed solver information are encoded in SED-ML documents for execution of the simulation experiments \citep{waltemath_reproducible_2011}. The Python scripts used with OpenCOR Snapshot 2021-05-19 \citep{garny_opencor_2015} to perform simulations and produce the figures in the primary paper are also included in the folder \texttt{./Simulation/src}. The name of the simulation and plot scripts indicates the figure number in the primary paper. For example, \texttt{Fig2\_sim.py} is used to generate the simulation data and \texttt{Fig2\_plot.py} reproduces the graph shown in Figure 2 from \citet{bursztyn2007mathematical}.
 
 \section{Model results}
 \label{sed:modelResults}
@@ -230,7 +230,7 @@ Fig &  Test Pulse& $[Na_i]$ (mM) & Initial $[Ca_i]$ (nM)\\
 \section{Discussion}
 \label{sec:discussion}
 We implemented the model \citep{bursztyn2007mathematical} using CellML in a modularized style which can be reused in future. We have successfully replicated all the figures and summarized detailed experiment settings for simulation in \autoref{sed:modelResults}. 
-In doing this, we noticed trivial typographical errors in parameter units and references in Table~$3$ of \cite{bursztyn2007mathematical}. Hence, we correct these in \autoref{tab:parameters} to remove potential confusion.
+In doing this, we noticed trivial typographical errors in parameter units and references in Table~3 of \cite{bursztyn2007mathematical}. Hence, we correct these in \autoref{tab:parameters} to remove potential confusion.
 
 \begin{table}[h!]\centering
 
