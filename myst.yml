@@ -1,6 +1,10 @@
 version: 1
 project:
   title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
+  description: >-
+    The model incorporates processes of intracellular Ca²⁺ concentration
+    control, myosin light chain (MLC) phosphorylation and stress production.
+  thumbnail: thumbnail.png
   authors:
     - name: Weiwei Ai
       orcid: 0000-0001-5602-5707
