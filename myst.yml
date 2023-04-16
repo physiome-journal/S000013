@@ -18,6 +18,24 @@ project:
       orcid: 0000-0003-4667-9779
       affiliations:
         - Auckland Bioengineering Institute, University of Auckland, New Zealand
+  editors:
+    - name: Shelley Fong
+      orcid: 0000-0001-8610-1088
+      role: Editor
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+    - name: Karin Lundengård
+      orcid: 0000-0001-7600-8218
+      role: Curator
+      affiliations:
+        - >-
+          Integrative Systems Biology, Department of Biomedical Engineering,
+          Linköping University, Linköping, Sweden
+  history:
+    - date: 2021/10/04
+      type: accepted
+    - date: 2021/10/27
+      type: published
   keywords:
     - cellular calcium control mechanisms
     - myometrial contractions
