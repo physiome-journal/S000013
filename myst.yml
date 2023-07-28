@@ -55,10 +55,6 @@ project:
   doi: 10.36903/physiome.16828756
 site:
   title: Mathematical model of excitation-contraction in a uterine smooth muscle cell
-  projects:
-    - slug: S000013
-      path: .
-  nav: []
   actions:
     - title: paper
       url: Ai2021PhysiomeS000013.pdf
@@ -68,3 +64,5 @@ site:
       static: true
     - title: primary
       url: https://doi.org/10.1152/ajpcell.00478.2006
+  domains:
+    - physiome-S000013.curve.space
